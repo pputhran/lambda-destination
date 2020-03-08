@@ -21,7 +21,7 @@ Resources:
           Runtime: nodejs12.x
           MemorySize: 256
           FunctionName: 'demo-lambda-destination'
-          Role: 'arn:aws:iam::963887453151:role/lambda-general'
+          Role: 'arn:aws:iam::<account_id>:role/lambda-general'
           EventInvokeConfig:
             MaximumEventAgeInSeconds: 70
             MaximumRetryAttempts: 2
